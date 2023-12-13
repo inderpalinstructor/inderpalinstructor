@@ -1,0 +1,16 @@
+{
+
+  "BrowserType": "firefox", // [chrome/firefox/ie/safari]Default Browser Chrome 
+  "BrowserVersion": "", // Blank
+  "GridHubUrl": "http://192.168.1.11:4444", // default is local. Grid url format --https://localhost:4444/
+
+  "StepScreenShot": "off", // [on/off] Default is off. To get screen shot for each step mention ON otherwise screen shot of failure will be added in extent report.
+  "ExtentReportPortalUrl": "", // Default as mentioned. Recommended to have seperate report portal setup for each team.
+  "ExtentReportToPortal": "off", // [on/off] Default is off. Report push to portal if mentioned ON.
+
+  "LogLevel": "Debug", // [ALL/DEBUG/INFORMATION/WARN/ERROR/FATAL] Default:"DEBUG. ALL < DEBUG < INFORMATION < WARN < ERROR < FATAL.
+  "DataSetLocation": "", // Default is blank & consider under TestDataSet Folde r. User can provide there location to upload data.
+
+  "DownloadedLocation": "" // Default is blank & consider under Download Folder. User can provide there location to download data.  
+
+}

@@ -1,0 +1,10 @@
+{
+  "stepAssemblies": [
+    {
+      "assembly": "Automation.DemoUi"
+    },
+    {
+      "assembly": "Automation.Framework.Core.WebUI"
+    }
+  ]
+}
